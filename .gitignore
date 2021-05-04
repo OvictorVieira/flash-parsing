@@ -1,0 +1,26 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/node_modules
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+.DS_Store
+.idea
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+
+.byebug_history
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+
+# Ignore coverage tempfiles.
+/coverage/*
+
+# Ignore .env files
+.env
