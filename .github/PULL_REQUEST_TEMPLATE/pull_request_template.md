@@ -1,17 +1,11 @@
-### All Submissions:
+*Faça aqui uma breve descrição das alterações que esse PR faz e o porquê*
 
-* [ ] Have you followed the guidelines in our Contributing document?
-* [ ] Have you checked to ensure there aren't other open [Pull Requests](../../../pulls) for the same update/change?
+*Liste pelo menos um issue relacionado à este PR.*
 
-<!-- You can erase any parts of this template not applicable to your Pull Request. -->
+## Pre-launch Checklist
 
-### New Feature Submissions:
-
-1. [ ] Does your submission pass tests?
-2. [ ] Have you lint your code locally prior to submission?
-
-### Changes to Core Features:
-
-* [ ] Have you added an explanation of what your changes do and why you'd like us to include them?
-* [ ] Have you written new tests for your core changes, as applicable?
-* [ ] Have you successfully ran tests with your changes locally?
+- [ ] Eu segui a [convensão do Rails](https://rubyonrails.org/doctrine/) sobre boas práticas de código;
+- [ ] Eu listei pelo menos um issue relacionado à este PR;
+- [ ] Eu adicionei novos testes para cobrir as mudanças que eu fiz neste PR, ou este PR é uma exceção;
+- [ ] Eu atualizei/adicionei comentários relevantes nas modificações efetuadas (caso necessário);
+- [ ] Todos os testes previamente existentes e os novos criados por mim estão finalizando com sucesso;
