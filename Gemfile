@@ -9,6 +9,7 @@ gem 'puma', '~> 5.0'
 gem 'rails', '~> 6.1.3', '>= 6.1.3.1'
 
 gem 'bootsnap', '>= 1.4.4', require: false
+gem 'mongoid', '~> 7.0.5'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
