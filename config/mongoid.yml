@@ -1,0 +1,32 @@
+development:
+  clients:
+    default:
+      database: flash_parsing_development
+      hosts:
+        - localhost:27017
+      options:
+        user: 'root'
+        password: 'example'
+  options:
+
+test:
+  clients:
+    default:
+      database: flash_parsing_test
+      hosts:
+        - localhost:27017
+      options:
+        read:
+          mode: :primary
+        max_pool_size: 1
+
+production:
+  clients:
+    default:
+      database: <%= Rails.application.credentials.dig(:database, :database_name) %>
+      hosts:
+        - <%= Rails.application.credentials.dig(:database, :host) %>
+      options:
+        user: <%= Rails.application.credentials.dig(:database, :user) %>
+        password: <%= Rails.application.credentials.dig(:database, :password) %>
+        max_pool_size: 5 # default pull size
